@@ -3,7 +3,7 @@
     <name>lost no d4</name>
     <directory>lost no d4</directory>
     <description>A mod that removes the D4 as a starting item from The Lost.</description>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <visibility>Private</visibility>
     <tag id="Tweaks"/>
 </metadata>
