@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>lost hope</name>
+    <directory>lost hope</directory>
+    <id>957835877</id>
+    <description>Lost Hope - a challenging, Holy Mantle-less The Lost mod that brings back the joys (and pain) of the original The Lost. In terms of overall difficulty: original The Lost (no Holy Mantle, no D4) &gt; Lost Hope mod &gt;&gt;&gt; current The Lost (Holy Mantle, D4). Not recommended for players who get frustrated easily. 
+
+The Lost starts with
+- Blank Card
+- There's Options
+- More Options
+- Duality
+- Guppy's Collar
+- Removed D4 and Holy Mantle
+
+Innate abilities
+- The default flight, spectral tears, free Devil deals, etc.
+- Immunity to curse room doors. Curse rooms are back in play. 
+- Infinite TNT in shops to allow bombing of donation machines. After blowing up the TNT, walk out and back in to respawn the TNT. Does not apply to Greed(ier) mode. 
+- Curse of the Labyrinth on the first floor. Combined with More Options, this allows the player to see four treasure room items before fighting the bosses. Does not apply to Greed(ier) mode. 
+- In Greed(ier) mode The Lost starts with a key. 
+
+Pros
+- A lot of fun. You either pop off quickly or die quickly, no more slogging through middling runs. One of my goals was to end the temptation of restart spamming and I think I've done that. 
+- The original challenge of The Lost returns. Holy Mantle just wasn't the same and in my opinion didn't fit lore-wise with The Lost. I will agree that it helped fix The Lost and made it instantly playable. 
+- The Guppy's Collar mechanic adds a lot to the experience. After taking a hit those few seconds of wondering if you will respawn or not. 
+- Blank Card dramatically changes the playstyle on each run depending on what cards or runes the player encounters. Consider how your playstyle change with Joker Card, Jira, Pertho, Algiz, Two of Diamonds, Chaos Card, World, and more. 
+- Thematically the items fit well together with The Lost. I envisioned The Lost as a character in purgatory, between two paths. All of these items fit that theme. 
+
+Cons:
+- Still brutally hard. Especially frustrating in guaranteed damage rooms. First floor Rag Man or Haunt still suck. 
+- Pretty hopeless against the special bosses. I don't have a solution for this. 
+- There was a beauty in the original The Lost not starting with any items at all. If I could of given The Lost the effects of the passive items without actually giving the player the items I would have. Unfortunately AddCollectibleEffect() never seems to work correctly...
+- Angel Rooms are still not quite balanced with Devil Rooms. As you start off with 1/3 Guppy transformation it's really tough to justify visiting Angel Rooms. I still like Duality because it fits with the theme. 
+
+Credits
+- I would like to thank Lytebringr for his excellent [url=https://www.youtube.com/playlist?list=PLMZJyHSWa_My5DDoTQcKCgs475xIpQHSF]YouTube series on modding [/url]. I highly recommend everyone check it out. Also thanks to people in the Discord server.</description>
+    <version>1.2</version>
+    <visibility>Private</visibility>
+    <tag id="Tweaks"/>
+</metadata>
