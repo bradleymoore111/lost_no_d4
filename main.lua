@@ -1,6 +1,6 @@
-local LostHope = RegisterMod("Lost Hope", 1)
+local LostNoD4	 = RegisterMod("Lost No D4", 1)
 
-function LostHope:Debug(message)
+function LostNoD4:Debug(message)
     if message == nil then
         message = "received nil"
     end
@@ -10,22 +10,22 @@ function LostHope:Debug(message)
 end
 
 -- returns true if the player is The Lost
-function LostHope:IsTheLost()
+function LostNoD4:IsTheLost()
     local player = Isaac.GetPlayer(0)
     if player:GetPlayerType() == PlayerType.PLAYER_THELOST then
-        --LostHope:Debug("I'm The Lost")
+        --LostNoD4:Debug("I'm The Lost")
         return true
     end
 
-    --	LostHope:Debug("I'm not The Lost")
+    --	LostNoD4:Debug("I'm not The Lost")
     return false
 end
 
 -- MC_POST_UPDATE callback support
-function LostHope:OnUpdate()
+function LostNoD4:OnUpdate()
 
     -- we only care about The Lost
-    if LostHope:IsTheLost() == false then
+    if LostNoD4:IsTheLost() == false then
         return
     end
 
@@ -38,4 +38,4 @@ function LostHope:OnUpdate()
 	end
     end
 end
-LostHope:AddCallback(ModCallbacks.MC_POST_UPDATE, LostHope.OnUpdate)
+LostNoD4:AddCallback(ModCallbacks.MC_POST_UPDATE, LostNoD4.OnUpdate)
